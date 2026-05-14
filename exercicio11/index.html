@@ -8,12 +8,23 @@
 <body>
     <h1>Imagem dinâmica</h1>
     <p>Tente abrir esse site em vários dispositivos para ver a imagem mudar de tamanho.</p>
-/picture
+
     <picture>
        <source media="(max-width: 750px)" srcset="Imagens P M G/FOTO P.png" type="image/png"> 
+
         <source media="(max-width: 1050px)" srcset="Imagens P M G/FOTO M.png" type="image/png">
-        <img src="Imagens P M G/FOTO G.png" alt="Imagem dinâmica">
-    <>
+
+        <img src="Imagens P M G/FOTO G.png" alt="Imagem dinâmica"> 
+
+        <h1>reproduzido audio</h1>
+        <p>reproduzido audio</p>
+        <audio src="audíos/Tiny Shell - Blue Deer, Nyles Lannon.mp3" controls autoplay>Rock</audio>
+      <!--MP3, OGG, WAV, WebM,-->
+
+      <p>outro metodo de adição de audio, para caso o navegador não suporte o formato MP3</p>
+      <audio preload="auto" autoplay controls>/
+      <source src="audíos/Tiny Shell - Blue Deer, Nyles Lannon.mp3" type="audio/mpeg">
+      </audio>
 
 </body>
 </html>
